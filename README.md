@@ -1,4 +1,4 @@
-# Artery-AT32-SWD-ICP (EasyThreed K9)
+# Artery-AT32-SWD-ICP (EasyThreed K9 AT32)
 SWD ICP How to program any Artery AT32 with St-link V2 clone
 
 Programar cualquier Artery AT32 por SWD ICP con un clon ST-LINK V2 de 2€
