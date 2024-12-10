@@ -51,7 +51,7 @@ https://mega.nz/file/E1A0AKYA#Z76TdbhYfYocrwyGPuR_jVtRUkSVtxo7I2T6c3Wx7t0
 
 (incluye también el convertidor para st-link genuinos como aparece aquí https://www.segger.com/products/debug-probes/j-link/models/other-j-links/st-link-on-board/)
 
-abre el "STLinkReflash_for_clones.exe" con un hex editor como winhex y busca el siguiente texto y sustituye la palabra "STLink" por otra de 6 letras:
+abre el "STLinkReflash_for_clones.exe" con un hex editor como winhex y busca el siguiente texto y sustituye la palabra "STLink" por otra de 6 letras: (como ARM-OB...)
 
 J-Link STLink V2 compiled Aug 12 2019 10:28:03
 
