@@ -10,7 +10,7 @@ Artery ICP Programmer permite usar J-link como programador pero J-link permite u
 ![ver](https://github.com/user-attachments/assets/49835699-0b6c-46c8-acdb-9f38e8f22725)
 
 
-compra un un ST-Link V2 clónico en aliexpress como este
+compra un un ST-Link V2 clónico en aliexpress como este (incluye 4 cables dupont)
 
 https://es.aliexpress.com/item/1005006160511992.html
 
