@@ -4,6 +4,8 @@ Programar cualquier Artery AT32 por SWD ICP con un clon ST-LINK V2 de 2€
 
 Artery ICP Programmer permite usar J-link como programador pero J-link permite usar programadores convertidos de ST-link a J-link solo para chips ST
 ![BEFORE](https://github.com/user-attachments/assets/1eb0e96b-b286-4723-8061-7da3fce0836e)
+![ver](https://github.com/user-attachments/assets/49835699-0b6c-46c8-acdb-9f38e8f22725)
+
 
 compra un un ST-Link V2 clónico en aliexpress como este
 
