@@ -1,5 +1,5 @@
-# Artery-AT32-SWD-ICP
-
+# Artery-AT32-SWD-ICP (EasyThreed K9)
+SWD ICP How to program any Artery AT32 with St-link V2
 Programar cualquier Artery AT32 por SWD ICP con un clon ST-LINK V2 de 2€
 
 Cuando en la placa hay chips serial-to-usb como CH340 o FT232 para comunicar con el microcontrolador pero no hay botones ni jumpers de BOOT0 ni BOOT1 que permita programar por usb ISP
