@@ -2,6 +2,8 @@
 
 Programar cualquier Artery AT32 por SWD ICP con un clon ST-LINK V2 de 2€
 
+Cuando en la placa hay chips serial-to-usb como CH340 o FT232 para comunicar con el microcontrolador pero no hay botones ni jumpers de BOOT0 ni BOOT1 que permita programar por usb ISP
+
 Artery ICP Programmer permite usar J-link como programador pero J-link permite usar programadores convertidos de ST-link a J-link solo para chips ST
 ![BEFORE](https://github.com/user-attachments/assets/1eb0e96b-b286-4723-8061-7da3fce0836e)
 ![ver](https://github.com/user-attachments/assets/49835699-0b6c-46c8-acdb-9f38e8f22725)
