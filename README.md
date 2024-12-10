@@ -58,7 +58,7 @@ J-Link STLink V2 compiled Aug 12 2019 10:28:03
 
 por
 
-J-Link HACKED V2 compiled Aug 12 2019 10:28:03
+J-Link XXXXXX V2 compiled Aug 12 2019 10:28:03
 
 esto hace que el soft de jlink detecte un programador diferente a jlink stlink y avise que es un clon pero permite programar con él
 
@@ -72,7 +72,7 @@ abre el Artery ICP Programmer y elige J-LINK como programador, conecta el stlink
 
 ya puedes leer (guardar una copia de respaldo), borrar y programar el chip, saldrá un mensaje de j-link clónico pero permitirá programar
 
-![AFTER](https://github.com/user-attachments/assets/0c5de6d2-3991-44dd-b399-c94f033cf05b)
+![AFTER](https://github.com/user-attachments/assets/7b60e600-a85a-45dd-9360-dd6bb1f58437)
 
 para leer toda la memoria flash del chip, indica la capacidad en "read size 0x" con un número hexadecimal, por ejemplo 256KB decimal son 40000 hexadecimal, busca una calculadora online
 
