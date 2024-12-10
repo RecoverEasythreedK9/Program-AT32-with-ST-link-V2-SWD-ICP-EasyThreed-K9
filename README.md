@@ -59,13 +59,13 @@ J-Link HACKED V2 compiled Aug 12 2019 10:28:03
 
 esto hace que el soft de jlink detecte un programador diferente a jlink stlink y avise que es un clon pero permite programar con él
 
-(este mismo stlinkreflash recién modificado o el descargado tal cual, permiten volverlo a convertir si se desea a stlink v2 con la opción 3)
-
 conecta el stlink y ejecuta el STLinkReflash_for_clones.exe recién modificado eligiendo la opción 1
+
+(este mismo stlinkreflash recién modificado o el descargado tal cual, permiten volverlo a convertir si se desea a stlink v2 con la opción 3)
 
 abre el Artery ICP Programmer y elige J-LINK como programador, conecta el stlink modificado al SWD de 6 pines:
 
-1swdio 2vcc3,3v 3swclk 4no-conectado 5rst 6gnd (en mi placa el pin 4 está puenteado con el 6 a masa)
+1swdio 2vcc3,3v 3swclk 4no-conectado 5rst 6gnd (según la placa, el pin 4 está puenteado con el 6 a masa)
 
 ya puedes leer (guardar una copia de respaldo), borrar y programar el chip, saldrá un mensaje de j-link clónico pero permitirá programar
 
