@@ -77,3 +77,7 @@ ya puedes leer (guardar una copia de respaldo), borrar y programar el chip, sald
 para leer toda la memoria flash del chip, indica la capacidad en "read size 0x" con un número hexadecimal, por ejemplo 256KB decimal son 40000 hexadecimal, busca una calculadora online
 
 ![OK](https://github.com/user-attachments/assets/546f0b7d-5082-47b3-971b-a686a07ea482)
+
+ahora puedes restaurar la impresora 3d Easythreed K9 al estado de fábrica
+
+https://github.com/RecoverEasythreedK9/Dump-stock-Flash-Eeprom-Easythreed-K9-AT32
