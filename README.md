@@ -5,7 +5,7 @@ Programar cualquier Artery AT32 por SWD ICP con un clon ST-LINK V2 de 2€
 
 Cuando en la placa hay chips serial-to-usb como CH340 o FT232 para comunicar con el microcontrolador pero no hay botones ni jumpers de BOOT0 ni BOOT1 que permita programar por usb ISP
 
-Artery ICP Programmer permite usar J-link como programador pero J-link permite usar programadores convertidos de ST-link a J-link solo para chips ST
+Artery ICP Programmer permite usar J-link como programador, y el soft de J-link permite usar programadores convertidos de ST-link a J-link pero solo para chips ST
 ![BEFORE](https://github.com/user-attachments/assets/1eb0e96b-b286-4723-8061-7da3fce0836e)
 ![ver](https://github.com/user-attachments/assets/49835699-0b6c-46c8-acdb-9f38e8f22725)
 
@@ -28,7 +28,7 @@ https://www.st.com/en/development-tools/stsw-link009.html
 
 conéctalo para que sea detectado e instala los drivers
 
-actualízalo si quieres a la última versión de firmware
+actualízalo si quieres a la última versión de firmware si volverás a usarlo más adelante como un st-link 
 
 https://www.st.com/en/development-tools/stsw-link007.html
 
@@ -52,7 +52,7 @@ https://mega.nz/file/E1A0AKYA#Z76TdbhYfYocrwyGPuR_jVtRUkSVtxo7I2T6c3Wx7t0
 
 (incluye también el convertidor para st-link genuinos como aparece aquí https://www.segger.com/products/debug-probes/j-link/models/other-j-links/st-link-on-board/)
 
-abre el "STLinkReflash_for_clones.exe" con un hex editor como winhex y busca el siguiente texto y sustituye la palabra "STLink" por otra de 6 letras: (como ARM-OB...)
+abre el "STLinkReflash_for_clones.exe" con un hex editor como winhex y busca el siguiente texto y sustituye la palabra "STLink" por otra de 6 letras: (como XXXXXX...)
 
 J-Link STLink V2 compiled Aug 12 2019 10:28:03
 
@@ -62,22 +62,24 @@ J-Link XXXXXX V2 compiled Aug 12 2019 10:28:03
 
 esto hace que el soft de jlink detecte un programador diferente a jlink stlink y avise que es un clon pero permite programar con él
 
+guarda el exe
+
 conecta el stlink y ejecuta el STLinkReflash_for_clones.exe recién modificado eligiendo la opción 1
 
-(este mismo stlinkreflash recién modificado o el descargado tal cual, permiten volverlo a convertir si se desea a stlink v2 con la opción 3)
+(este mismo stlinkreflash recién modificado o el descargado de mega tal cual, permiten volverlo a convertir si se desea a stlink v2 con la opción 3)
 
 abre el Artery ICP Programmer y elige J-LINK como programador, conecta el stlink modificado al SWD de 6 pines:
 
-1swdio 2vcc3,3v 3swclk 4no-conectado 5rst 6gnd (según la placa, el pin 4 está puenteado con el 6 a masa)
+1swdio 2vcc3,3v 3swclk 4no-conectado 5rst 6gnd (en mi placa, el pin 4 está puenteado con el 6 a masa)
 
 ya puedes leer (guardar una copia de respaldo), borrar y programar el chip, saldrá un mensaje de j-link clónico pero permitirá programar
 
 ![AFTER](https://github.com/user-attachments/assets/7b60e600-a85a-45dd-9360-dd6bb1f58437)
 
-para leer toda la memoria flash del chip, indica la capacidad en "read size 0x" con un número hexadecimal, por ejemplo 256KB decimal son 40000 hexadecimal, busca una calculadora online
+para leer toda la memoria flash del chip, indica la capacidad en "read size 0x" con un número hexadecimal, por ejemplo 256 (KB en decimal) son 40000 en hexadecimal, busca una calculadora online
 
 ![OK](https://github.com/user-attachments/assets/546f0b7d-5082-47b3-971b-a686a07ea482)
 
-ahora puedes restaurar la impresora 3d Easythreed K9 al estado de fábrica
+ahora puedes restaurar la impresora 3d Easythreed K9 al estado de fábrica:
 
 https://github.com/RecoverEasythreedK9/Dump-stock-Flash-Eeprom-Easythreed-K9-AT32
