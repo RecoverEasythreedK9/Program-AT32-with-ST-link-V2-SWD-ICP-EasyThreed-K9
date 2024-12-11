@@ -1,5 +1,5 @@
 # Artery-AT32-SWD-ICP (EasyThreed K9 AT32)
-SWD ICP How to program any Artery AT32 with St-link V2 clone
+Program AT32 with ST-Link / Programar AT32 con ST-Link
 
 Programar cualquier Artery AT32 por SWD ICP con un clon ST-LINK V2 de 2€
 
@@ -49,6 +49,8 @@ https://www.arterychip.com/file/download/2275
 descarga el convertidor de st-link v2 a "j-link st-link v2" modificado para clones
 
 https://mega.nz/file/E1A0AKYA#Z76TdbhYfYocrwyGPuR_jVtRUkSVtxo7I2T6c3Wx7t0
+
+fuente: https://gist.github.com/jamesy0ung/919ef51fea4631e9dfe0bd26dc85c8f0
 
 (incluye también el convertidor para st-link genuinos como aparece aquí https://www.segger.com/products/debug-probes/j-link/models/other-j-links/st-link-on-board/)
 
