@@ -50,9 +50,13 @@ descarga el convertidor de st-link v2 a "j-link st-link v2" modificado para clon
 
 https://mega.nz/file/E1A0AKYA#Z76TdbhYfYocrwyGPuR_jVtRUkSVtxo7I2T6c3Wx7t0
 
-fuente: https://gist.github.com/jamesy0ung/919ef51fea4631e9dfe0bd26dc85c8f0
-
 (incluye también el convertidor para st-link genuinos como aparece aquí https://www.segger.com/products/debug-probes/j-link/models/other-j-links/st-link-on-board/)
+
+fuentes:
+
+https://gist.github.com/jamesy0ung/919ef51fea4631e9dfe0bd26dc85c8f0
+
+https://github.com/Zelmoghazy/st-link-v2-clone
 
 abre el "STLinkReflash_for_clones.exe" con un hex editor como winhex y busca el siguiente texto y sustituye la palabra "STLink" por otra de 6 letras: (como XXXXXX...)
 
