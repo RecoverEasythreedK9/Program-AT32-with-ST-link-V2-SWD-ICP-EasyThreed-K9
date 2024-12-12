@@ -82,7 +82,7 @@ ya puedes leer (guardar una copia de respaldo), borrar y programar el chip, sald
 
 ![AFTER](https://github.com/user-attachments/assets/7b60e600-a85a-45dd-9360-dd6bb1f58437)
 
-para leer toda la memoria flash del chip, indica la capacidad en "read size 0x" con un número hexadecimal, por ejemplo 256 (KB en decimal) son 40000 en hexadecimal, busca una calculadora online
+para leer toda la memoria flash del chip, indica su capacidad en bytes en "read size 0x" pero con un valor hexadecimal, por ejemplo 262144 bytes (256x1024, 256KB) en decimal son 40000 en hexadecimal, busca una calculadora online
 
 ![OK](https://github.com/user-attachments/assets/546f0b7d-5082-47b3-971b-a686a07ea482)
 
