@@ -5,7 +5,7 @@ Programar cualquier Artery AT32 por SWD ICP con un clon ST-LINK V2 de 2€
 
 Cuando en la placa hay chips serial-to-usb como CH340 o FT232 para comunicar con el microcontrolador pero no hay botones ni jumpers de BOOT0 ni BOOT1 que permita programar por usb ISP
 
-Artery ICP Programmer permite usar J-link como programador, y el soft de J-link permite usar programadores convertidos de ST-link a J-link pero solo para chips ST
+Artery ICP Programmer permite usar J-link como programador, y el soft de J-link permite usar programadores convertidos de ST-link a "J-link St-link" pero solo para chips ST
 ![BEFORE](https://github.com/user-attachments/assets/1eb0e96b-b286-4723-8061-7da3fce0836e)
 ![ver](https://github.com/user-attachments/assets/49835699-0b6c-46c8-acdb-9f38e8f22725)
 
@@ -27,10 +27,6 @@ descarga los drivers para el st-link v2
 https://www.st.com/en/development-tools/stsw-link009.html
 
 conéctalo para que sea detectado e instala los drivers
-
-actualízalo si quieres a la última versión de firmware si volverás a usarlo más adelante como un st-link 
-
-https://www.st.com/en/development-tools/stsw-link007.html
 
 descarga e instala "J-Link Software and Documentation pack" (contiene los drivers, selecciona legacy drivers en la instalación)
 
@@ -66,7 +62,7 @@ por
 
 J-Link XXXXXX V2 compiled Aug 12 2019 10:28:03
 
-esto hace que el soft de jlink detecte un programador diferente a jlink stlink y avise que es un clon pero permite programar con él
+esto hace que el soft de jlink detecte un programador diferente a "jlink stlink" y avise que es un clon pero permite programar con él
 
 guarda el exe
 
@@ -74,7 +70,7 @@ conecta el stlink y ejecuta el STLinkReflash_for_clones.exe recién modificado e
 
 (este mismo stlinkreflash recién modificado o el descargado de mega tal cual, permiten volverlo a convertir si se desea a stlink v2 con la opción 3)
 
-abre el Artery ICP Programmer y elige J-LINK como programador, conecta el stlink modificado al SWD de 6 pines:
+abre el Artery ICP Programmer y elige J-LINK como programador, conecta el stlink modificado al SWD de 6 pines (solo se conectan 5):
 
 1swdio 2vcc3,3v 3swclk 4no-conectado 5rst 6gnd (en mi placa, el pin 4 está puenteado con el 6 a masa)
 
