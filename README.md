@@ -2,6 +2,8 @@
 
 
 Programar cualquier Artery AT32 por SWD ICP con un clon ST-LINK V2 de 2€
+![GZ1hN2OaYAEH234 (1)](https://github.com/user-attachments/assets/5186b7e0-9bc6-449b-a1bc-b26741e92c5e)
+
 
 Cuando en la placa hay chips serial-to-usb como CH340 o FT232 para comunicar con el microcontrolador pero no hay botones ni jumpers de BOOT0 ni BOOT1 que permita programar por usb ISP
 
