@@ -18,6 +18,7 @@ https://es.aliexpress.com/item/1005006160511992.html
 
 ![1](https://github.com/user-attachments/assets/f7d54c89-b454-42b6-abc4-2390120edbe0)
 
+Opcional: 4 cables como los que trae st-link son suficientes (vcc, swdio, swclk, gnd)
 consigue 5 cables dupont o compra un juego de cables en aliexpress como estos
 
 https://es.aliexpress.com/item/1005007072081464.html
