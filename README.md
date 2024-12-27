@@ -74,7 +74,7 @@ conecta el stlink y ejecuta el STLinkReflash_for_clones.exe recién modificado e
 
 (este mismo stlinkreflash recién modificado o el descargado de mega tal cual, permiten volverlo a convertir si se desea a stlink v2 con la opción 3)
 
-abre el Artery ICP Programmer y elige J-LINK como programador, conecta el stlink modificado al SWD de 6 pines (solo se conectan 5):
+abre el Artery ICP Programmer y elige J-LINK como programador, conecta el stlink modificado al SWD de 6 pines (solo se conectan 5, en realidad solo 4 pues reset es opcional):
 
 1swdio 2vcc3,3v 3swclk 4no-conectado 5rst 6gnd (en mi placa, el pin 4 está puenteado con el 6 a masa)
 
